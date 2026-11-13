@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ea6b4c"/>
+      <stop offset="1" stop-color="#d44e2f"/>
+    </linearGradient>
+  </defs>
+  <!-- macOS 图标网格：824 的圆角方形居中，四周留 100 的边距 -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#bg)"/>
+  <!-- 取景框四角 -->
+  <g fill="none" stroke="#fff6eb" stroke-width="54" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 420 V344 a44 44 0 0 1 44 -44 H420"/>
+    <path d="M604 300 H680 a44 44 0 0 1 44 44 V420"/>
+    <path d="M724 604 V680 a44 44 0 0 1 -44 44 H604"/>
+    <path d="M420 724 H344 a44 44 0 0 1 -44 -44 V604"/>
+  </g>
+  <!-- 直播指示点 -->
+  <circle cx="512" cy="512" r="98" fill="#fff6eb"/>
+</svg>
